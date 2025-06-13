@@ -247,7 +247,7 @@ const SonewaniJungleSafari = () => {
 .packages-row { display: flex; flex-wrap: wrap; gap: 32px; justify-content: center; }
 @media (min-width: 900px) { .packages-row { flex-direction: row; justify-content: center; align-items: stretch; } }
 @media (max-width: 899px) { .packages-row { flex-direction: column; align-items: center; } }
-.package-card { background: #1b6897; position: relative; color: #fff; border-radius: 18px; padding: 24px 28px 32px 28px; margin: 20px auto; max-width: 420px; min-width: 320px; box-shadow: 0 8px 40px rgba(27,104,151,0.3); cursor: default; transition: transform 0.3s ease, box-shadow 0.3s ease; display: flex; flex-direction: column; align-items: center; text-align: center; animation: popIn 1s ease forwards; overflow: hidden; }
+.package-card { background: #1b6897; position: relative; color: #fff; border-radius: 18px; padding: 24px 28px 32px 28px; margin: 20px auto; max-width: 420px; box-shadow: 0 8px 40px rgba(27,104,151,0.3); cursor: default; transition: transform 0.3s ease, box-shadow 0.3s ease; display: flex; flex-direction: column; align-items: center; text-align: center; animation: popIn 1s ease forwards; overflow: hidden; }
 .package-card .bg-img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity: 0.30; border-radius: 18px; filter: blur(0.5px); }
 .package-card .bg-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(27,104,151,0.62); z-index: 1; border-radius: 18px; }
 .package-card > * { position: relative; z-index: 2; }
@@ -359,7 +359,6 @@ const SonewaniJungleSafari = () => {
         <div style={{
           position: "absolute",
           top: "50%",
-          left: "8vw",
           transform: "translateY(-50%)",
           zIndex: 2,
           display: "flex",
@@ -720,7 +719,7 @@ const SonewaniJungleSafari = () => {
           <FaMapMarkerAlt style={{ color: "#1b6897", marginRight: 8 }} />
           SONEWANI WILDLIFE SAFARI Location
         </div>
-        <iframe className="map-iframe" title="SONEWANI WILDLIFE SAFARI Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.749657083208!2d79.0699975149327!3d21.1215459859496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c08b2b2e7b4d%3A0x8b7de6f5b9c0e2d!2sSonewani%20Jungle%20Safari!5e0!3m2!1sen!2sin!4v1688541234567!5m2!1sen!2sin" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <iframe className="map-iframe" title="SONEWANI WILDLIFE SAFARI Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14811.500727709736!2d80.34433029950993!3d21.862349730058366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2a43f780c1b3a7%3A0xcb5cf9bd4ac69e0!2sSonewani%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1749844523675!5m2!1sen!2sin" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         <div style={{ fontWeight: 500, color: "#444", fontSize: "1rem", marginBottom: 32 }}>
           Sonewani, Madhya Pradesh, India
         </div>
