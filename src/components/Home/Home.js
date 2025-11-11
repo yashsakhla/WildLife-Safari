@@ -11,10 +11,13 @@ import image6 from "../../assets/tiger-6.jpg";
 import image7 from "../../assets/tiger-7.jpg";
 import image8 from "../../assets/animal-8.jpg";
 import image9 from "../../assets/animal-9.jpg";
+import Content from "../content/Content";
+import AboutExplorer from "../aboutExplorer/aboutExplorer";
 const fontLink1 = document.createElement("link");
 fontLink1.href = "https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap";
 fontLink1.rel = "stylesheet";
 document.head.appendChild(fontLink1);
+
 
 const fontLink2 = document.createElement("link");
 fontLink2.href = "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap";
@@ -67,7 +70,7 @@ const PACKAGES = [
   }
 ];
 
-const PHONE_NUMBER = "6261801007";
+const PHONE_NUMBER = "9165041080";
 const EMAIL_ADDRESS = "sonewaniwildlifesafari@gmail.com";
 
 const SonewaniJungleSafari = () => {
@@ -609,6 +612,8 @@ const SonewaniJungleSafari = () => {
           ))}
         </div>
       </section>
+        <Content />
+        <AboutExplorer />
       
       {showPackageForm && (
         <div className="popup-form-overlay" role="dialog" aria-modal="true" aria-labelledby="package-form-title">
