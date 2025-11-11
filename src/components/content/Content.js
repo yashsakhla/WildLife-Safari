@@ -39,9 +39,6 @@ function Content() {
     transition: "transform 0.3s ease",
   };
 
-  const imageHover = {
-    transform: "scale(1.03)",
-  };
 
   const headingStyle = {
     fontSize: "26px",
