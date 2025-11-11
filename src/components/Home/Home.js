@@ -71,7 +71,6 @@ const PACKAGES = [
 ];
 
 const PHONE_NUMBER = "9165041080";
-const EMAIL_ADDRESS = "sonewaniwildlifesafari@gmail.com";
 
 const SonewaniJungleSafari = () => {
   const [showHero, setShowHero] = useState(false);
@@ -135,10 +134,7 @@ const SonewaniJungleSafari = () => {
   const handleTouchEndTop = () => setIsHoveringTop(false);
   const handleTouchStartBottom = () => setIsHoveringBottom(true);
   const handleTouchEndBottom = () => setIsHoveringBottom(false);
-
-  const handleClosePopup = () => setShowPopup(false);
   const handleImageClick = (url) => setZoomImage(url);
-  const handleCloseZoom = () => setZoomImage(null);
 
   const openPackageForm = (pkgName) => {
     setSelectedPackage(pkgName);

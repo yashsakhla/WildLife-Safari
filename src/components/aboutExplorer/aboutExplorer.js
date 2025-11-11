@@ -19,15 +19,6 @@ const AboutExplorer = () => {
     padding: "30px",
   };
 
-  const imageStyle = {
-    width: "200px",
-    height: "200px",
-    borderRadius: "50%",
-    objectFit: "cover",
-    marginBottom: "20px",
-    border: "3px solid #00e676",
-  };
-
   const headingStyle = {
     fontSize: "28px",
     color: "#00e676",
